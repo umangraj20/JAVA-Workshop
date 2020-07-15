@@ -1,16 +1,11 @@
+package Section01;
 
 public class ForLoopDemo {
 
 	public static void main(String[] args) {
-		int counter=1;
-		for( ; counter<=5; ){
-			System.out.println("hello");
-			
-			counter++;
-		}
-//		for(;;) {
-//			System.out.println("Hello");
-//		}
+		 for(int counter=1; counter<=5;counter++) {
+			 System.out.println("Hello World");
+		 }
 
 	}
 

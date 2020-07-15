@@ -2,12 +2,12 @@ package Section01;
 
 import java.util.Scanner;
 
-public class Pattern3 {
+public class Pattern02 {
 
 	public static void main(String[] args) {
 		Scanner scn= new Scanner(System.in);
 		int n = scn.nextInt();
-		int nst=n;
+		int nst=1;
 		//row
 		int row=1;
 		while(row<=n) {
@@ -21,9 +21,10 @@ public class Pattern3 {
 			//prep
 			System.out.println();
 			row++;
-			nst--;
+			nst++;
 		}
 		
 
 	}
+
 }
